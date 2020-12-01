@@ -1,0 +1,23 @@
+#+TITLE: Advent of Code 2020
+
+I'm doing the [[https://adventofcode.com/2020][advent of code]] this year! Hopefully I'll actually manage to finish it this year. Using this an an excuse to do some more rust programming.
+
+* Usage
+To run a solution for a day the basic usage is
+#+begin_src bash
+cargo run -- --day 1 --challenge 2 /path/to/puzzle-input
+
+# or the shorter
+cargo run -- -d 1 -c 2 /path/to/puzzle-input
+#+end_src
+
+For more detail you can run
+#+begin_src bash
+cargo run -- --help
+#+end_src
+
+If you need better performance build the release (optimized) version and then run it:
+#+begin_src bash
+cargo build --release
+./target/release/advent2020 -d 1 -c 2 /path/to/puzzle-input
+#+end_src
