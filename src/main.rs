@@ -16,6 +16,7 @@ fn main() {
         6 => day6::solutions::Day6::solution(&input),
         7 => day7::solutions::Day7::solution(&input),
         8 => day8::solutions::Day8::solution(&input),
+        9 => day9::solutions::Day9::solution(&input),
         _ => println!("No solutions for day {}", &input.day)
     }
 }
